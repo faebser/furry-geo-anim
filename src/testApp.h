@@ -3,6 +3,10 @@
 #include "ofMain.h"
 #include "geoBit.h"
 
+#include "firstBit.h"
+
+using namespace fab;
+
 class testApp : public ofBaseApp {
 
 	public:
@@ -19,4 +23,12 @@ class testApp : public ofBaseApp {
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+		
+		void switchBit();
+		void saveBit();
+		
+	private:
+		vector<geoBit> bits;
+		geoBit * currentBit;
+		float ticker;
 };

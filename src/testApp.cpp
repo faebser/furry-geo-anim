@@ -1,16 +1,24 @@
 #include "testApp.h"
 
+
 //--------------------------------------------------------------
 void testApp::setup(){
+	ticker = 0;
+	
+	// add one of each bit to the vector
+	firstBit bit = firstBit();
+	bits.push_back(bit);
+	currentBit = &bits.at(0);
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
+	//currentBit->update();
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
-
+	//currentBit->draw();
 }
 
 //--------------------------------------------------------------

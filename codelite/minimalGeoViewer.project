@@ -11,9 +11,10 @@
     <File Name="../src/testApp.cpp"/>
     <File Name="../src/testApp.h"/>
     <File Name="../src/main.cpp"/>
-    <VirtualDirectory Name="bits"/>
     <File Name="../src/geoBit.cpp"/>
     <File Name="../src/geoBit.h"/>
+    <File Name="firstBit.cpp"/>
+    <File Name="firstBit.h"/>
   </VirtualDirectory>
   <VirtualDirectory Name="config">
     <File Name="../Makefile"/>

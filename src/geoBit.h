@@ -6,7 +6,8 @@ namespace fab {
 		public:
 			geoBit() {};
 			virtual void setup() {};
-			virtual void draw(float tick) {};
+			virtual void update(float tick) = 0;
+			virtual void draw() {};
 			virtual void saveFullRepeat() {};
 			virtual ~geoBit() {};
 		};
